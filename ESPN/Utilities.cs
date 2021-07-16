@@ -8,7 +8,7 @@ namespace ESPN
 {
     public class Utilities
     {
-
+        //This is a function that passes in the driver and element to allow browser to wait UP TO a total of 30 seconds. If not found will error out.
         internal static bool WaitForElementToAppear(IWebDriver Driver, By by)
         {
             try
@@ -31,8 +31,8 @@ namespace ESPN
             {
                 return false;
             }
-
-            return true;
+            
+            return false;
         }
     }
 }
